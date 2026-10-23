@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be9aee4dac1b58ea87640061c9b1213, type: 3}
   m_Name: RabbitCostume
   m_EditorClassIdentifier: Assembly-CSharp::CostumeSO
-  image: {fileID: 0}
+  image: {fileID: 1462494574578865565, guid: 0e23ccd51aa374264abca97b8204ed23, type: 3}
   title: Rabbit Costume
   layer: RabbitPlayer
-  animation: {fileID: 0}
+  animation: {fileID: 9100000, guid: b0417778a4fc2b5ef93f85dfc6da900e, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be9aee4dac1b58ea87640061c9b1213, type: 3}
   m_Name: GhostCostume
   m_EditorClassIdentifier: Assembly-CSharp::CostumeSO
-  image: {fileID: 0}
+  image: {fileID: 1571764272867312998, guid: f585208ff4fcec948b533acc3e446e7b, type: 3}
   title: Ghost Costume
   layer: GhostPlayer
-  animation: {fileID: 0}
+  animation: {fileID: 9100000, guid: 240c598276164cee69bca25684790bda, type: 2}

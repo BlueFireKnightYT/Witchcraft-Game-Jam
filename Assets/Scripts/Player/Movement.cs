@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
 
     private int rabbitLayer;
+    private int GhostLayer;
     private bool isDashing = false;
     private bool canDash = true;
 
@@ -23,6 +24,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rabbitLayer = LayerMask.NameToLayer("RabbitPlayer");
+        GhostLayer = LayerMask.NameToLayer("GhostPlayer");
         rb = GetComponent<Rigidbody2D>();
     }
     
@@ -34,13 +36,22 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        bool canJump = Physics2D.Raycast(transform.position, Vector2.down, rayDistance,  groundLayer);
+        bool canJump = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
 
         if (context.performed && canJump)
         {
             rb.AddForceY(jumpHeight, ForceMode2D.Impulse);
         }
-    }
+
+        if (gameObject.layer == GhostLayer)
+        {
+            
+        }
+        else
+        {
+            
+        }
+}
 
     public void Dash(InputAction.CallbackContext context)
     {

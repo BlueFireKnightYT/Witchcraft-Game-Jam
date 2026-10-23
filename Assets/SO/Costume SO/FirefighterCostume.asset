@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be9aee4dac1b58ea87640061c9b1213, type: 3}
   m_Name: FirefighterCostume
   m_EditorClassIdentifier: Assembly-CSharp::CostumeSO
-  image: {fileID: 0}
+  image: {fileID: -3284360509779334076, guid: 314798ca5edd2972593b070095e9ccf1, type: 3}
   title: Firefighter Costume
   layer: FireFighterPlayer
-  animation: {fileID: 0}
+  animation: {fileID: 9100000, guid: b79dae13140e4d8b3b4caac3afe69ab8, type: 2}
