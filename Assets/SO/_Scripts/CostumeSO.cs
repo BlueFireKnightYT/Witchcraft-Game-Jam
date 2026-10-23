@@ -5,5 +5,6 @@ public class CostumeSO : ScriptableObject
 {
     public Sprite image;
     public string title;
+    public string layer;
     public RuntimeAnimatorController animation;
 }

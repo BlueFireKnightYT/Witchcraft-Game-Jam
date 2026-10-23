@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1be9aee4dac1b58ea87640061c9b1213, type: 3}
-  m_Name: FirefighterCostume
+  m_Name: RabbitCostume
   m_EditorClassIdentifier: Assembly-CSharp::CostumeSO
   image: {fileID: 0}
-  title: Firefighter Costume
+  title: Rabbit Costume
+  layer: RabbitPlayer
   animation: {fileID: 0}

@@ -50,6 +50,7 @@ public class CostumeMenu : MonoBehaviour
     public void SelectCostume()
     {
         player.GetComponent<Animator>().runtimeAnimatorController = current.animation;
-        this.gameObject.SetActive(false);
+        player.layer = LayerMask.NameToLayer(current.layer);
+        gameObject.SetActive(false);
     }
 }
