@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +5,12 @@ public class ChangeCostume : MonoBehaviour
 {
     public GameObject costumeMenu;
     private bool canOpenMenu = false;
+
+    private void Start()
+    {
+        gameObject.layer = LayerMask.NameToLayer(("BasePlayer"));
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("CostumeBox"))

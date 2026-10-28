@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -45,6 +44,8 @@ public class CostumeMenu : MonoBehaviour
             costumeIndex--;
         else
             costumeIndex = costumeList.Count - 1;
+        
+        RetrieveSoData();
     }
     
     public void SelectCostume()
